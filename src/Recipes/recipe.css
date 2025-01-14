@@ -1,0 +1,81 @@
+ .photoRecipe{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.5;
+  }
+  
+  .container-recipe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+   
+   .icon-recipe {
+    width:50px;
+    height: 50px;
+  }
+  
+  .search-recipe{
+    padding: 10px 30px;
+    width: 250px;
+    text-align: center;
+    color: #803D3B;
+    font-family: "Source Serif 4", serif;
+    font-size: 20px;
+    font-style: italic;
+    border: none;
+    border-radius: 10px;
+  } 
+   
+  .btn-recipe {
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #803D3B;
+    color: white;
+    font-family: "Source Serif 4", serif;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+  }
+   .icon-recipe {
+    font-family: "Source Serif 4", serif;
+    color: #803D3B;
+    font-size: 60px;
+    font-weight: bold;
+  }
+  h2,h3 {
+    font-family: "Source Serif 4", serif;
+    color: #803D3B;
+    font-style: italic;
+  }
+ 
+  .image-recipe {
+    width: 200px;
+    border: 3px solid #803D3B;
+  
+  }
+ 
+  h1 {
+    font-family: "Source Serif 4", serif;
+    color: #803D3B;
+    font-size: 60px;
+    font-weight: bold;
+  }
+  
+  .text-recipe{
+    list-style-type: none;
+    font-family: "Source Serif 4", serif;
+    color: #803D3B;
+    padding: 5px;
+    margin: 10px; 
+    
+  } 
+  .text-recipe {
+    background-color: beige;
+  } 
