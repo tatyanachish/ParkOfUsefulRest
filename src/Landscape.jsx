@@ -5,7 +5,7 @@ function Landscape(){
         <div className='headline'>
             <h1>Park <br/>of Useful <br/>Rest</h1>  
         </div>     
-        <img src={landscape} alt = 'photo' className='mainPhoto'/>            
+        <img src={landscape} alt = 'park' className='mainPhoto'/>            
     </div>
     
     )

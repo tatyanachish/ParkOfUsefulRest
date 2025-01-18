@@ -12,7 +12,6 @@ function GreenHouse(){
             </div>
             <GreenHouseNumbers/>
             <Slides/>
-            <Footer/>
         </div>
     )
 }

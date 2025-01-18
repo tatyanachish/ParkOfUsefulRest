@@ -4,8 +4,8 @@ function Souvenirs({souvenirs}){
             {souvenirs.map((item) => {
                 const {id,image,title,price,searchTerm} = item
                 return(
-                    <div>
-                        <div key={id} >
+                    <div key={id}>
+                        <div  >
                             <img src={image} width='350'/>
                         </div>
                         <div>

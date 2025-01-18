@@ -3,7 +3,7 @@ import instagram from './icons/instagram.png'
 import youtube from './icons/youtube.png'
 function Footer(){
     return(
-        <div className="footer">
+        <footer>
             <div className="footerTitle">
                 <p>PARK MAP</p>
                 <p>VOLUNTEERING & INTERSHIP</p>
@@ -25,7 +25,7 @@ function Footer(){
                 <p>Children's Privacy Policy</p>
                 <p>Charitable Solicitations</p>
             </div>
-    </div>
+        </footer>
     )
 }
 export default Footer;

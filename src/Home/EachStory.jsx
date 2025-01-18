@@ -1,23 +1,18 @@
-import { useParams,useNavigate, data } from "react-router-dom";
+import { useParams,useNavigate } from "react-router-dom";
 import { dataHome } from "./dataHome";
 import Footer from "../Footer";
 function EachStory(){
     const navigate = useNavigate()
     const { path } = useParams()
+    const story = dataHome.find((story) => story.path === path);
     return(
-        <div>
-           {dataHome.filter((story)=>story.path === path).map((elem,index)=> {
-            return(
-                <div key={index} className="elem">
-                    <h2 className="storyHeadliner">{elem.title}</h2>
-                    <img src={elem.image} alt='nature' width='300'/>
-                    <p className="textStory">{elem.description}</p>
+        <div>        
+                <div className="elem">
+                    <h2 className="storyHeadliner">{story.title}</h2>
+                    <img src={story.image} alt='nature' width='300'/>
+                    <p className="textStory">{story.description}</p>
                     <button className="btn-restaurant" onClick={()=>navigate(-1)}>Go Back</button>
-
                 </div>
-            )
-           })}
-           <Footer/>
         </div>
     )
 }

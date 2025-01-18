@@ -23,7 +23,6 @@ function Home(){
                     retreat for all</p>
             </div> 
             <HomeStories stories={stories}/>           
-            <Footer/>
         </div>
     )
 }

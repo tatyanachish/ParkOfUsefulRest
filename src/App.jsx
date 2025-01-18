@@ -8,6 +8,7 @@ import Logo from './Logo'
 import EachStory from './Home/EachStory'
 import Weather from './Weather'
 import Recipes from './Recipes/Recipes'
+import Footer from './Footer'
 
 
 
@@ -33,7 +34,8 @@ function App() {
         <Route path='/Store' element={<Store/>}/>
         <Route path='/each/:path' element={<EachStory/>}/>
         <Route path='/recipes' element={<Recipes/>}/>
-      </Routes>      
+      </Routes>   
+      <Footer/>   
       </Router>
       </div>
   )

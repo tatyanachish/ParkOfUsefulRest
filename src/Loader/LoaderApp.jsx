@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import './Loader.css'
 import LoaderPage from './LoaderPage'
 
-function App() {
+function LoaderApp() {
 const [stateLoader,setStateLoader] = useState(true)
 useEffect(()=>{
   const timer = setTimeout(()=>setStateLoader(false),3000)
@@ -18,4 +18,4 @@ useEffect(()=>{
   )
 }
 
-export default App
+export default LoaderApp;
