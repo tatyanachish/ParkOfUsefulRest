@@ -38,7 +38,7 @@ function Weather() {
         e.preventDefault()
         setCitySubmited(searchWeather)
       }
- 
+
     return(
         <div className="weather">       
             <form onSubmit={finalCity}>
