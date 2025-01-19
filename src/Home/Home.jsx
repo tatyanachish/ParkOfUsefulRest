@@ -1,9 +1,8 @@
 import { useState } from "react";
-import Footer from "../Footer";
 import Landscape from "../Landscape";
 import { dataHome } from "./dataHome";
 import HomeStories from "./HomeStories";
-import Weather from "../Weather";
+
 
 function Home(){
     

@@ -8,7 +8,6 @@ function GreenHouseNumbers(){
     <div className="numbers">
         <h2 className="headlineQuestion">GREENHOUSE IN NUMBERS</h2>            
     </div>
-    {/* сделать увеличение фото при наведении */}
     <div className='facts'> 
         <div className='container'>                    
             <h2 className='storyHeadliner'>600 plants</h2>

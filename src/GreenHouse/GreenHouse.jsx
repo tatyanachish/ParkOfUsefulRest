@@ -1,7 +1,8 @@
-import Footer from "../Footer";
+
 import Landscape from "../Landscape";
 import GreenHouseNumbers from "./GreenHouseNumbers";
-import Slides from "./slides";
+import Slides from './Slides'
+
 
 function GreenHouse(){
     return(

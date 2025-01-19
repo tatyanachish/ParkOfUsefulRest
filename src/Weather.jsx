@@ -57,7 +57,7 @@ function Weather() {
               cloud={weatherData.weather[0].main}
            />
          ) : (<LoaderPage/>
-          //  <p className="correct">Please, enter the correct city name</p>
+          
          )}
          </div>
     )

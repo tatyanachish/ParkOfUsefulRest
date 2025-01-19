@@ -4,12 +4,12 @@ function Restaurant({restaurant,showTextClick}){
             <div className="question">
                 <h2 className="headlineQuestion">CHOOSE WHAT YOU PREFER OR JUST LOOK AT THE LIST OF CAFES</h2>
             </div>
-            <div>
+            <div className='foodContainer'>
                 {restaurant.map((cafe) => {
                     const {id,image,title,cusine,description,location,showMore} = cafe
                     return (
                         <div key={id}>        
-                        <div className='foodContainer'>                   
+                        <div >                   
                             <p className="titleFood">{title}</p>
                             <div className="foodList">
                                 <div className="foodPhoto">

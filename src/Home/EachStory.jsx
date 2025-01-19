@@ -1,6 +1,6 @@
 import { useParams,useNavigate } from "react-router-dom";
 import { dataHome } from "./dataHome";
-import Footer from "../Footer";
+
 function EachStory(){
     const navigate = useNavigate()
     const { path } = useParams()
